@@ -27,3 +27,21 @@ body {
   initial-value: 0%;
   inherits: true;
 }
+
+@keyframes shine {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 0 50px;
+  }
+}
+
+@keyframes end {
+  0%, 100% {
+    box-shadow: 0 0 10px 0px orange;
+  }
+  50% {
+    box-shadow: 0 0 15px 5px orange;
+  }
+}
